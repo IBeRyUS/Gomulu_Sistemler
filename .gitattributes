@@ -1,0 +1,4 @@
+schematics/ linguist-detectable=false
+Makefile linguist-detectable=false
+docs/_static/ linguist-detectable=false
+*.rst linguist-language=reStructuredText
