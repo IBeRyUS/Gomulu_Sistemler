@@ -1,0 +1,112 @@
+C domainde fonksiyon gösterimi
+
+   .. c:function:: PyObject* PyType_GenericAlloc(PyTypeObject *type, Py_ssize_t nitems)
+
+Code bloğu kullanma
+
+   .. code-block:: C
+      
+      #if defined(__ARMCC_VERSION)
+      const char *mimari = "ARM"
+      #elif defined(__AVR__)
+      const char *mimari = "AVR"      
+      #else
+      const char *mimari = "Bilinmeyen"
+      #endif
+      
+      printf("%s\n", mimari);
+      
+      
+Yeni sayfada açılacak link tanımı
+
+   BCD -> 7 Segment Decoder (örnek |4056_link_html| |4056_link_latex|) entegre edilmiş direk BCD
+   
+   .. |_link_html| raw:: html
+   
+      <a href="" 
+      target="_blank"> </a>
+      
+   .. |_link_latex| raw:: latex
+      
+      \href{url }{  }
+      
+index ekleme
+
+   :index:`Bare-metal` 
+
+
+Resim ekleme
+
+   .. image:: ../pictures/7_segment_01.PNG
+      :align: center
+   
+   .. centered:: 7-Segment Şema
+   
+highlight kullanmadan blok ekleme
+
+   .. highlight:: none
+
+   ::
+
+       * Take a look in the "The GNU linker" manual, here you get
+       * the following information about the "MEMORY":
+
+
+İçindekiler
+
+.. toctree::
+   :maxdepth: 2
+   :caption: İçindekiler:
+   
+   giris
+   00_C_aciklama.rst
+   01_7_segment.rst
+   
+   
+Paragraf arası bir satır boşluk
+
+   |1_empty_line_latex| |1_empty_line_html|
+
+.. |1_empty_line_latex| raw:: latex
+
+   \vspace{5mm}
+
+.. |1_empty_line_html| raw:: html
+
+   <br>
+   
+   
+Paragraf değerleri
+
+
+##################
+H1: document title
+##################
+
+Introduction text.
+
+
+*********
+Sample H2
+*********
+
+Sample content.
+
+
+**********
+Another H2
+**********
+
+Sample H3
+=========
+
+Sample H4
+---------
+
+Sample H5
+^^^^^^^^^
+
+Sample H6
+"""""""""
+
+And some text.

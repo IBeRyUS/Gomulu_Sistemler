@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include "surucu.h"
+#include "paket.h"
+
+void Paket_Init(void)
+{
+   //....
+   //....
+   Surucu_Init();
+   //....
+   //....
+}
+
+void Paket_Gonder(unsigned char* veri, unsigned int uzunluk)
+{
+   //....
+   //....
+   Surucu_Gonder(veri, uzunluk);
+}

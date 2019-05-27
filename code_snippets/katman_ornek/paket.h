@@ -1,0 +1,13 @@
+#ifndef PAKET_H
+#define PAKET_H
+
+//....
+//....
+#define  PAKET_BOYUT_MAX   (20)
+
+void Paket_Init(void);
+void Paket_Gonder(unsigned char*, unsigned int);
+//....
+//....
+
+#endif /* PAKET_H */
