@@ -26,7 +26,7 @@ yöntemleri anlatmaya çalıştığım bölümü okumanızı tavsiye ederim.
    01_7_segment.rst
 
 
-.. only:: builder_html
+.. only:: html
 
    .. toctree::
       :maxdepth: 1
