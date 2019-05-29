@@ -24,10 +24,9 @@ içinde diğer başlık dosyalarını dahil ederseniz tüm modüller birbirine
 erişebilir durumda olacaktır ve hata ayıklamak zor olacaktır. Ayrıca derleme 
 süreniz de uzayacaktır.
 
-   *  Modul1; modul2'ye ve modul3'e erişebilsin
-   *  Modul2; modul1'e erişsin diğerlerine erişemesin
-   *  Modul2; modul3'e ve modul4'e erişşin, diğerlerine erişemesin
-   *  Modul3; modul4'e erişsin, diğerlerine erişemesin
+   *  Modul1; modul2’ye ve modul3’e erişebilsin, modul4'e erişemesin.
+   *  Modul2; modul4’e erişşin, diğerlerine erişemesin
+   *  Modul3; modul4’e erişsin, diğerlerine erişemesin
 
 Ben kaynak dosyalarında şu sıra ile ``#include`` direktiflerini kullanırım. 
 
