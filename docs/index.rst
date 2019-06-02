@@ -13,17 +13,28 @@ bazı terimleri İngilizce olarak kullanmış olabilirim.
 üzerinde pull-request, issue, direk mesaj veya e-posta atarak bildirirseniz
 gerekli düzeltmeler yapılacaktır.
 
-İlk önce C diline ait kısa bir giriş ve gömülü sistemlerde uygulanan 
-yöntemleri anlatmaya çalıştığım bölümü okumanızı tavsiye ederim.
+Buradaki uygulama örneklerindeki kodlar örnek olarak yazılmış kodlardır ve ufak
+hatalar(bug) içerebilir. Direk kopyala yapıştır ile projenizde kullanmak yerine
+yöntemleri öğrenerek kendi kodlarınızı yazmanızı tavsiye ederim.
+
+Özellikle yeni başlayanlara C diline ait kısa bir giriş ve gömülü sistemlerde 
+uygulanan yöntemleri anlatmaya çalıştığım bölümden okumaya başlamanızı tavsiye 
+ederim. 
+
+İçindekiler
+=============================================================================
+
+   .. toctree::
+      :maxdepth: 2
+         
+      giris
+      00_C_aciklama.rst
+
+**Uygulama Örnekleri**
+   .. toctree::
+      :maxdepth: 2
       
-.. toctree::
-   :maxdepth: 2
-   :caption: İçindekiler:
-   
-   
-   giris
-   00_C_aciklama.rst
-   01_7_segment.rst
+      01_7_segment.rst
 
 
 .. only:: html

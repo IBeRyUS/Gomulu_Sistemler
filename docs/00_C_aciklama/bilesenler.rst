@@ -83,7 +83,7 @@ bilgileri farklıdır. Bunlar genel olarak kullanılan geliştirme ortamları
    MEMORY
    {
      FLASH (rx) : ORIGIN = 0x08000000, LENGTH = 0x00008000
-     RAM (rw) : ORIGIN = 0x20000000, LENGTH = 0x00002800
+     RAM (rw)   : ORIGIN = 0x20000000, LENGTH = 0x00002800
    }
 
 Bağlayıcı; derleyici tarafından oluşturulan obje dosyalarında tanımlanmış

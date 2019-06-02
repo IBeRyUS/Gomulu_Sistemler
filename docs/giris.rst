@@ -15,13 +15,11 @@ Giriş
 Gömülü Sistem Ne Demektir
 ********************************************************************************
 
-Gömülü sistemler kısaca üzerinde çalışan yazılımın kullanıcı tarafından
-özelleştirilmesinin ve değiştirilmesinin (üreticinin sağladığı yazılım
-güncellemesinden hariç kullanıcı tarafından yazılan yazılım ile fonksiyonun
-değiştirilmesi) çok kolay olmadığı, sistemin çalışması için gereken tüm
-ekipmanların bir kart veya kutu içerisinde toplandığı sistemlerdir. Bununla
-ilgili internette birçok kaynak mevcut ufak bir araştırma ile daha detaylı
-bilgilere ulaşabilirsiniz. 
+Gömülü sistemler kısaca sistemin çalışması için gereken tüm donanım ve yazılım
+ekipmanların bir arada bulunduğu sistemlerdir. Gömülü sistemler genel 
+kullanımdan ziyade ihtiyaç duyulan göreve/işe göre özel olarak tasarlanırlar. 
+Gömülü sistemleri buradaki bir kaç satır ile anlatmak maalesef mümkün değildir.
+Daha detaylı bilgiler için diğer kaynakları araştırmanızı tavsiye ederim.
 
 ********************************************************************************
 Geliştirme Ortamı
@@ -59,7 +57,10 @@ Kullanılacak Yazılımlar ve Donanımlar
    Özellikle gömülü sistemler alanında eğitim veren mühendislik bölümlerinde
    **sadece** Arduino öğretilmesine karşıyım fakat buradaki örneklerin aynı
    zamanda gerçek donanım üzerinde de test edilebilmesi için en ucuz ve
-   kolay bulunan prototip bordu olan Arduino örnekleri ile başlayacağız.
+   kolay bulunan prototip bordu olan Arduino örnekleri ile başlayacağız. Arduino
+   IDE'si tanımladığınız fonksiyonların prototip tanımlarını otomatik olarak 
+   derleme aşamasından önce derlenecek koda ekliyor. O yüzden **Arduino** 
+   örneklerinde fonksiyon prototipleri verilen kodlarda yoktur.
 
 \
 
@@ -69,6 +70,12 @@ Kullanılacak Yazılımlar ve Donanımlar
    *  Arduino Atmega328p çipine sahip UNO veya NANO 
    *  |arduino_ide_link_html| |arduino_ide_link_latex| 
 
+.. note::
+
+   Arduino örneklerinde main() fonksiyonu yerine setup() ve loop() fonksiyonları
+   bulunmaktadır. Setup() açılışta bir defa çalışır loop() ise sonsuz döngü
+   içinde döner.
+
 .. |arduino_ide_link_html| raw:: html 
 
    <a href="https://www.arduino.cc/en/Main/Software" 
@@ -77,6 +84,7 @@ Kullanılacak Yazılımlar ve Donanımlar
 .. |arduino_ide_link_latex| raw:: latex
 
    \href{https://www.arduino.cc/en/Main/Software}{Arduino IDE}
+
 
 C Programlama Dili 
 ================================================================================

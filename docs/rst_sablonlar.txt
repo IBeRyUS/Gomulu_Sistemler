@@ -16,7 +16,12 @@ Code bloğu kullanma
       
       printf("%s\n", mimari);
       
-      
+
+Code ekleme 
+
+.. literalinclude:: ../../code_snippets/katman_ornek/main.c
+   :linenos:
+            
 Yeni sayfada açılacak link tanımı
 
    BCD -> 7 Segment Decoder (örnek |4056_link_html| |4056_link_latex|) entegre edilmiş direk BCD
@@ -110,3 +115,9 @@ Sample H6
 """""""""
 
 And some text.
+
+indis ve üs yazımı
+
+The chemical formula for pure H\ :sup:`2`\ O water is |H2O|.
+
+.. |H2O| replace:: H\ :sub:`2`\ O
