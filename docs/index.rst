@@ -35,6 +35,7 @@ ederim.
       :maxdepth: 2
       
       01_7_segment.rst
+      02_7_segment.rst
 
 
 .. only:: html

@@ -28,10 +28,10 @@ Aşağıdaki şemada ATmega328p mikrodenetleyicisine bağlanmış iki adet 7 seg
 LED display ve iki buton bulunmaktadır. Şema simulasyon için yeterli
 elemanlara sahiptir.
 
-.. image:: ../pictures/7_segment_01.PNG
+.. image:: ../pictures/01_7_segment_01.PNG
    :align: center
 
-.. centered:: 7-Segment Şema
+.. centered:: 7-Segment BCD Şema
 
 |7_segment_link_html| |7_segment_link_latex|.
 
