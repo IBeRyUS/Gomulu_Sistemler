@@ -1,3 +1,19 @@
+.. comment
+
+   Copyright 2019 İbrahim USLAN(IBeRyUS) - mixer_opq@hotmail.com
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
 ********************************************************************************
 C Dilinde Kodlar Nasıl Derlenir?
 ********************************************************************************
@@ -81,6 +97,7 @@ Main Modülü
 yapılmaktadır.
 
 .. literalinclude:: ../../code_snippets/katman_ornek/main.c
+   :lines: 20-
    :linenos:
    
 Uygulama Modülü
@@ -89,11 +106,13 @@ Uygulama Modülü
 * **Kaynak Dosyası** 
 
 .. literalinclude:: ../../code_snippets/katman_ornek/uygulama.c
+   :lines: 20-
    :linenos:
 
 * **Başlık Dosyası** 
 
 .. literalinclude:: ../../code_snippets/katman_ornek/uygulama.h
+   :lines: 20-
    :linenos:
 
 Paket Modülü
@@ -102,11 +121,13 @@ Paket Modülü
 * **Kaynak Dosyası** 
 
 .. literalinclude:: ../../code_snippets/katman_ornek/paket.c
+   :lines: 20-
    :linenos:
 
 * **Başlık Dosyası** 
 
 .. literalinclude:: ../../code_snippets/katman_ornek/paket.h
+   :lines: 20-
    :linenos:
 
 Sürücü Modülü
@@ -115,11 +136,13 @@ Sürücü Modülü
 * **Kaynak Dosyası** 
 
 .. literalinclude:: ../../code_snippets/katman_ornek/surucu.c
+   :lines: 20-
    :linenos:
 
 * **Başlık Dosyası** 
 
 .. literalinclude:: ../../code_snippets/katman_ornek/surucu.h
+   :lines: 20-
    :linenos:
 
 Derleme Açıklamaları

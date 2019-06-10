@@ -20,6 +20,7 @@ Code bloğu kullanma
 Code ekleme 
 
 .. literalinclude:: ../../code_snippets/katman_ornek/main.c
+   :lines: 20-
    :linenos:
             
 Yeni sayfada açılacak link tanımı
