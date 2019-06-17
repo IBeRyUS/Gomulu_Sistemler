@@ -44,21 +44,28 @@ ederim.
       :maxdepth: 2
          
       giris
-      00_C_aciklama.rst
+      01_C_aciklama.rst
+      02_toolchain.rst
 
-**Uygulama Örnekleri**
    .. toctree::
+      :caption: ARDUINO Örnekleri
       :maxdepth: 2
+      :glob:
       
-      01_7_segment.rst
-      02_7_segment.rst
+      arduino/*
 
+   .. toctree::
+      :Caption: STM32 Örnekleri
+      :maxdepth: 2
+      :glob:
+      
+      stm32/*
 
 .. only:: html
 
    .. toctree::
       :maxdepth: 1
-      
+
       license.rst
 
    Tablolar ve indeks
