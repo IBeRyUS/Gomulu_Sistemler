@@ -1,3 +1,4 @@
 [submodule "simulation"]
 	path = simulation
 	url = https://github.com/IBeRyUS/simulation.git
+	branch = master

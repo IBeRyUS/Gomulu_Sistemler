@@ -24,7 +24,7 @@ programlama dilini anlatan bir kitabı okumanızdır. Ben C diline
 |rifat_colkesen_html| |rifat_colkesen_latex|'in yazmış olduğu C kitabını 
 okuyarak başlamıştım. 
 
-Gömülü sistemlerde genel olarak iki programlama mimarisinden biri seçilir. 
+Gömülü sistemlerde genel olarak ana iki programlama mimarisinden biri seçilir. 
 Bunlar:
 
    *  :index:`Bare-metal` (direk firmware hazırlamak)
@@ -32,9 +32,8 @@ Bunlar:
          
 Genel olarak ben bare-metal programlama tercih ediyorum. Şimdilerde gömülü 
 sistemlerde kullanılan mikrodenetleyiciler eski mikrodenetleyicilerden daha 
-fazla RAM ve ROMa sahip olduğu için RTOS'lerin kullanımı giderek artmakta.
-Mesela 64 bayt RAM ve 1K işlemci komut hafızasına sahip bir mikrodenetleyici
-ile RTOS gerçekleştirmek çok kolay olmasa gerek :)
+fazla RAM ve ROMa sahip olduğu ve mikroişlemciler gibi RAM stack, software 
+interrupt, vb. ilave imkanlar sağladığı için RTOS kullanımı giderek yaygınlaşmaktadır.
 
 C dili üst seviye bir programlama dili olmasına rağmen çok güçlü donanım 
 erişimi sağlamasından dolayı gömülü sistemlerde yaygın olarak 

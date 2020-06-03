@@ -45,7 +45,8 @@ ederim.
          
       giris
       01_C_aciklama.rst
-      02_toolchain.rst
+      02_msys2_kurulum.rst
+      03_toolchain.rst
 
    .. toctree::
       :caption: ARDUINO Örnekleri
@@ -64,6 +65,7 @@ ederim.
 .. only:: html
 
    .. toctree::
+      :Caption: Lisans
       :maxdepth: 1
 
       license.rst
